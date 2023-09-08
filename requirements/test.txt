@@ -14,7 +14,7 @@ async-timeout==4.0.3 ; python_version < "3.11"
     # via -r requirements/runtime-deps.in
 attrs==23.1.0
     # via -r requirements/runtime-deps.in
-brotli==1.0.9
+brotli==1.1.0
     # via -r requirements/runtime-deps.in
 certifi==2023.7.22
     # via requests
@@ -22,6 +22,8 @@ cffi==1.15.1
     # via
     #   cryptography
     #   pycares
+charset-normalizer==3.2.0
+    # via requests
 click==8.1.6
     # via
     #   typer
